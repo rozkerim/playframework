@@ -23,9 +23,9 @@ Whether you use the Play enhancer or not in your projects is up to you, if you d
 
 ## Setting up
 
-To enable the byte code enhancer, simply add the following line to your `project/plugins.sbt` file:
+To enable the byte code enhancer, simply add the following line to your `build.sbt` file:
 
-@[plugins.sbt](code/enhancer.sbt)
+@[build.sbt](code/enhancer.sbt)
 
 The Play enhancer should be enabled for all your projects.  If you want to disable the Play enhancer for a particular project, you can do that like so in your `build.sbt` file:
 

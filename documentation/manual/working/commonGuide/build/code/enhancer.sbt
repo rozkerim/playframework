@@ -2,9 +2,9 @@
 // Copyright (C) 2009-2018 Lightbend Inc. <https://www.lightbend.com>
 //
 
-//#plugins.sbt
-addSbtPlugin("com.typesafe.sbt" % "sbt-play-enhancer" % "1.1.0")
-//#plugins.sbt
+//#build.sbt
+libraryDependencies += "com.typesafe.play" % "play-enhancer" % "1.2.2"
+//#build.sbt
 
 //#disable-project
 lazy val nonEnhancedProject = (project in file("non-enhanced"))
